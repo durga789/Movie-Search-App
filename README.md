@@ -1,36 +1,39 @@
-# Movie-Search-App
-![Image](https://cdn.dribbble.com/userupload/10352875/file/original-946276bbf114e49f5a41ffefddeda299.png?resize=1200x675)
+# React Movie App - ReactJS Projects
 
-  
- 
-  
+![](movie.gif)
 
-## Get Started
+### Demo - Deployed over Github Pages 
+https://ayushkul.github.io/react-movie-app
 
-install dev dependencies
+### Full development Tutorial 
+[Youtube Tutorial - The Indian Dev](https://www.youtube.com/watch?v=_UXycMmVYj0)
 
-### `npm install`
+### APIs Used
+[The Open Movie Database APIs](http://www.omdbapi.com/)
 
-## Then
+Generate API key from : http://www.omdbapi.com/apikey.aspx
 
-go to https://www.themoviedb.org, create an account and get the api key, then use that api key in constants/index.js file
+### API Info
+* Method: `GET`
+* Search URL: `https://www.omdbapi.com/?s={MOVIE_NAME}&apikey={API_KEY}`
+* Movie Details URL: `https://www.omdbapi.com/?i={MOVIE_ID}&apikey={API_KEY}`
 
-## Then
+### Icons & Font -
+* Icons: [ayushkul/react-movie-app](https://github.com/ayushkul/react-movie-app/tree/main/public/)
+* Font Link: `<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">`
 
-Run The app
+### Libraries used
+* `styled-components`
+* `axios`
+* `react-scripts`
 
-### `npm start`
+### Whom do I talk to? ###
 
-Runs your app in development mode.
+* AyushK : [The Indian Dev](https://www.instagram.com/theindiandev)
 
-Open it in the [Expo app](https://expo.io) on your phone to view it. It will reload if you save edits to your files, and you will see build errors and logs in the terminal.
+### How can I appreciate this repo? ###
 
-#### `npm run ios`
+* By giving this repo a 🌟
+* By Subscribing : [The Indian Dev](https://www.youtube.com/channel/UCbaR6YYn5VGXrR5_f-4tNsA) at Youtube
+* By Following : [The Indian Dev](https://www.instagram.com/theindiandev) at Instagram
 
-Like `npm start` / `yarn start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed.
-
-#### `npm run android`
-
-Like `npm start` / `yarn start`, but also attempts to open your app on a connected Android device or emulator. Requires an installation of Android build tools (see [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html) for detailed setup).
-
-<br />
